@@ -1,4 +1,3 @@
-
 (function ($){
   var xOffset = 15; // x 偏移像素
     var yOffset = 5; // y 偏移像素 
@@ -308,8 +307,8 @@
 				var msgx=optionsx.msg;
 				var stroption='validType:"'+validTypex+'",'+'msg:"'+msgx+'"';
 				$("#"+id).attr({"option":stroption});
-				alert(stroption);
-				alert(eval("({"+stroption+"})"))
+				//alert(stroption);
+				//alert(eval("({"+stroption+"})"))
 			}
 	
 		}
